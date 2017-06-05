@@ -12,5 +12,10 @@ public class Animal {
 		name=n;
 		bark=b;
 	}
+	
+	public void shout()
+	{
+		System.out.println("The name of the animal is"+name + "It shouts like"+bark);
+	}
 
 }
