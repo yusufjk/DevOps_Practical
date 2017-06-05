@@ -6,8 +6,7 @@ public class Dog extends Animal {
 	public Dog(String n,String b)
 	{
 		super(n,b);
-	}
-	
+	}	
 	public void makeShout()
 	{
 		super.shout();
